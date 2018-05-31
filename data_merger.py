@@ -13,8 +13,9 @@ class DataMerger():
     CLINIC_SERVICES_PATH = "/clinicservices.csv"
     CLINIC_LOCATIONS_PATH = "/cliniclocations.xml"
     EMAIL_DEFAULT_DOMAIN = "@myclinic.com.au"
+    DEFAULT_FOLDER_LOCATION = "./data"
 
-    def data_read(self, folder_location="./data"):
+    def data_read(self, folder_location="Not Provided"):
         """
         Input --> folder_location
 
@@ -22,6 +23,10 @@ class DataMerger():
 
         This function reads all csv and xml files from ./data(if not provided) folder and return dataframe of each file
         """
+        if folder_location == "Not Provided":
+            folder_location = self.DEFAULT_FOLDER_LOCATION
+
+
         clinics_df = pd.read_csv(folder_location + self.CLINICS_PATH)
         clinicservices_df = pd.read_csv(folder_location + self.CLINIC_SERVICES_PATH)
         services_df = pd.read_csv(folder_location + self.SERVICES_PATH)
@@ -86,8 +91,7 @@ class DataMerger():
         return clinicservicelocations_df
 
     def df_to_csv(self, clinicservicelocations_df, file_name):
-        clinicservicelocations_df.to_csv(file_name, index=False)
-        pass
+        clinicservicelocations_df.to_csv(self.DEFAULT_FOLDER_LOCATION + "/" + file_name, index=False)
 
     def main(self):
         clinics_df, cliniclocations_df, services_df, clinicservices_df = self.data_read()
