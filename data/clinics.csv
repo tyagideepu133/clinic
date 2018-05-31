@@ -1,0 +1,30 @@
+ClinicID,Name,Suburb,State,Postcode,Email
+1,Hurstville Clinic,Hurstville,NSW,1493,hurstville
+2,Sydney Centre Clinic,Sydney,NSW,2000,sydney@myclinic.com.au
+3,Auburn Clinic,Auburn,NSW,2144,auburn@myclinic.com.au
+4,Riverwood Clinic,Riverwood,NSW,2210,riverwood@myclinic.com.au
+5,Fingal Bay Clinic,Fingal Bay,NSW,2315,fingal bay@myclinic.com.au
+6,Harrington Clinic,Harrington,NSW,2427,harrington@myclinic.com.au
+7,Back Forest Clinic,Back Forest,NSW,2535,back forest@myclinic.com.au
+8,Jindabyne Clinic,Jindabyne,NSW,2627,jindabyne @myclinic.com.au
+9,Benolong Clinic,Benolong,NSW,2830,benolong@myclinic.com.au
+10,Melbourne Centre Clinic,Melbourne,VIC,3000,melbourne@myclinic.com.au
+11,Preston Clinic,Preston,VIC,3072,preston@myclinic.com.au
+12,Petticoat Creek Clinic,Petticoat Creek,VIC,3233,petticoat creek@myclinic.com.au
+13,Douglas Clinic,Douglas,VIC,3409,douglas@myclinic.com.au
+14,Mildura Clinic,Mildura,VIC,3500,mildura
+15,Broadford Clinic,Broadford,VIC,3658,broadford@myclinic.com.au
+16,Officer Clinic,Officer,VIC,3809,officer@myclinic.com.au
+17,Nowa Nowa Clinic,Nowa Nowa,VIC,3887,nowa nowa@myclinic.com.au
+18,Langsborough Clinic,Langsborough,VIC,3971,langsborough@myclinic.com.au
+19,Brisbane Centre Clinic,Brisbane,QLD,4000,brisbane@myclinic.com.au
+20,Robertson Clinic,Robertson,QLD,4109,robertson@myclinic.com.au
+21,Logan Village Clinic,Logan Village,QLD,4207,logan village
+22,Ipswich Clinic,Ipswich,QLD,4305,ipswich@myclinic.com.au
+23,Cattle Creek Clinic,Cattle Creek,QLD,4407,cattle creek@myclinic.com.au
+24,Caboolture Clinic,Caboolture,QLD,4510,caboolture@myclinic.com.au
+25,Booie Clinic,Booie,QLD,4610,booie@myclinic.com.au
+26,Rockhampton Clinic,Rockhampton,QLD,4700,rockhampton@myclinic.com.au
+27,Townsville Clinic,Townsville,QLD,4810,townsville @myclinic.com.au
+28,Cairns Clinic,Cairns,QLD,4870,cairns@myclinic.com.au
+29,Adelaide Centre Clinic,Adelaide,SA,5000,adelaide
