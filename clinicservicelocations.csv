@@ -1,0 +1,74 @@
+Clinic,ClinicID,ClinicServicesID,Email,Lat,Lon,Service,ServiceID,State,Suburb
+Hurstville Clinic,1,1,hurstville@myclinic.com.au,-33.975869,151.088939,General Practitioner,1,NSW,Hurstville
+Hurstville Clinic,1,2,hurstville@myclinic.com.au,-33.975869,151.088939,Pathology,2,NSW,Hurstville
+Sydney Centre Clinic,2,3,sydney@myclinic.com.au,-33.867139,151.207114,General Practitioner,1,NSW,Sydney
+Sydney Centre Clinic,2,4,sydney@myclinic.com.au,-33.867139,151.207114,Pathology,2,NSW,Sydney
+Sydney Centre Clinic,2,5,sydney@myclinic.com.au,-33.867139,151.207114,Radiology,3,NSW,Sydney
+Sydney Centre Clinic,2,6,sydney@myclinic.com.au,-33.867139,151.207114,Psychiatry,4,NSW,Sydney
+Sydney Centre Clinic,2,7,sydney@myclinic.com.au,-33.867139,151.207114,Chiropratic,5,NSW,Sydney
+Auburn Clinic,3,8,auburn@myclinic.com.au,-33.849322,151.033421,General Practitioner,1,NSW,Auburn
+Auburn Clinic,3,9,auburn@myclinic.com.au,-33.849322,151.033421,Pathology,2,NSW,Auburn
+Riverwood Clinic,4,10,riverwood@myclinic.com.au,-33.949859,151.052469,General Practitioner,1,NSW,Riverwood
+Riverwood Clinic,4,11,riverwood@myclinic.com.au,-33.949859,151.052469,Psychiatry,4,NSW,Riverwood
+Riverwood Clinic,4,12,riverwood@myclinic.com.au,-33.949859,151.052469,Chiropratic,5,NSW,Riverwood
+Fingal Bay Clinic,5,13,fingalbay@myclinic.com.au,-32.748113,152.170141,Pathology,2,NSW,Fingal Bay
+Harrington Clinic,6,14,harrington@myclinic.com.au,-31.872153,152.689811,Radiology,3,NSW,Harrington
+Back Forest Clinic,7,15,backforest@myclinic.com.au,-34.853655,150.678507,General Practitioner,1,NSW,Back Forest
+Back Forest Clinic,7,16,backforest@myclinic.com.au,-34.853655,150.678507,Pathology,2,NSW,Back Forest
+Back Forest Clinic,7,17,backforest@myclinic.com.au,-34.853655,150.678507,Chiropratic,5,NSW,Back Forest
+Jindabyne Clinic,8,18,jindabyne@myclinic.com.au,-36.415074,148.618871,General Practitioner,1,NSW,Jindabyne
+Jindabyne Clinic,8,19,jindabyne@myclinic.com.au,-36.415074,148.618871,Pathology,2,NSW,Jindabyne
+Jindabyne Clinic,8,20,jindabyne@myclinic.com.au,-36.415074,148.618871,Radiology,3,NSW,Jindabyne
+Benolong Clinic,9,21,benolong@myclinic.com.au,-32.413736,148.63938,General Practitioner,1,NSW,Benolong
+Benolong Clinic,9,22,benolong@myclinic.com.au,-32.413736,148.63938,Psychiatry,4,NSW,Benolong
+Melbourne Centre Clinic,10,23,melbourne@myclinic.com.au,-37.814563,144.970267,General Practitioner,1,VIC,Melbourne
+Melbourne Centre Clinic,10,24,melbourne@myclinic.com.au,-37.814563,144.970267,Pathology,2,VIC,Melbourne
+Melbourne Centre Clinic,10,25,melbourne@myclinic.com.au,-37.814563,144.970267,Radiology,3,VIC,Melbourne
+Melbourne Centre Clinic,10,26,melbourne@myclinic.com.au,-37.814563,144.970267,Psychiatry,4,VIC,Melbourne
+Melbourne Centre Clinic,10,27,melbourne@myclinic.com.au,-37.814563,144.970267,Chiropratic,5,VIC,Melbourne
+Preston Clinic,11,28,preston@myclinic.com.au,-37.738736,145.000515,Pathology,2,VIC,Preston
+Petticoat Creek Clinic,12,29,petticoatcreek@myclinic.com.au,-38.718949,143.725959,Radiology,3,VIC,Petticoat Creek
+Douglas Clinic,13,30,douglas@myclinic.com.au,-37.842988,144.892631,General Practitioner,1,VIC,Douglas
+Douglas Clinic,13,31,douglas@myclinic.com.au,-37.842988,144.892631,Psychiatry,4,VIC,Douglas
+Mildura Clinic,14,32,mildura@myclinic.com.au,-34.181714,142.163072,General Practitioner,1,VIC,Mildura
+Mildura Clinic,14,33,mildura@myclinic.com.au,-34.181714,142.163072,Chiropratic,5,VIC,Mildura
+Broadford Clinic,15,34,broadford@myclinic.com.au,-37.203001,145.050171,General Practitioner,1,VIC,Broadford
+Officer Clinic,16,35,officer@myclinic.com.au,-38.063056,145.40958,General Practitioner,1,VIC,Officer
+Officer Clinic,16,36,officer@myclinic.com.au,-38.063056,145.40958,Pathology,2,VIC,Officer
+Nowa Nowa Clinic,17,37,nowanowa@myclinic.com.au,-37.733238,148.089423,General Practitioner,1,VIC,Nowa Nowa
+Nowa Nowa Clinic,17,38,nowanowa@myclinic.com.au,-37.733238,148.089423,Pathology,2,VIC,Nowa Nowa
+Nowa Nowa Clinic,17,39,nowanowa@myclinic.com.au,-37.733238,148.089423,Radiology,3,VIC,Nowa Nowa
+Nowa Nowa Clinic,17,40,nowanowa@myclinic.com.au,-37.733238,148.089423,Psychiatry,4,VIC,Nowa Nowa
+Nowa Nowa Clinic,17,41,nowanowa@myclinic.com.au,-37.733238,148.089423,Chiropratic,5,VIC,Nowa Nowa
+Langsborough Clinic,18,42,langsborough@myclinic.com.au,-38.651487,146.675098,Radiology,3,VIC,Langsborough
+Brisbane Centre Clinic,19,43,brisbane@myclinic.com.au,-27.46758,153.027892,General Practitioner,1,QLD,Brisbane
+Brisbane Centre Clinic,19,44,brisbane@myclinic.com.au,-27.46758,153.027892,Pathology,2,QLD,Brisbane
+Brisbane Centre Clinic,19,45,brisbane@myclinic.com.au,-27.46758,153.027892,Radiology,3,QLD,Brisbane
+Brisbane Centre Clinic,19,46,brisbane@myclinic.com.au,-27.46758,153.027892,Psychiatry,4,QLD,Brisbane
+Brisbane Centre Clinic,19,47,brisbane@myclinic.com.au,-27.46758,153.027892,Chiropratic,5,QLD,Brisbane
+Robertson Clinic,20,48,robertson@myclinic.com.au,-27.565733,153.057213,Psychiatry,4,QLD,Robertson
+Logan Village Clinic,21,49,loganvillage@myclinic.com.au,-27.767054,153.116881,General Practitioner,1,QLD,Logan Village
+Logan Village Clinic,21,50,loganvillage@myclinic.com.au,-27.767054,153.116881,Chiropratic,5,QLD,Logan Village
+Ipswich Clinic,22,51,ipswich@myclinic.com.au,-27.614604,152.760876,General Practitioner,1,QLD,Ipswich
+Ipswich Clinic,22,52,ipswich@myclinic.com.au,-27.614604,152.760876,Psychiatry,4,QLD,Ipswich
+Ipswich Clinic,22,53,ipswich@myclinic.com.au,-27.614604,152.760876,Chiropratic,5,QLD,Ipswich
+Cattle Creek Clinic,23,54,cattlecreek@myclinic.com.au,-27.6483,150.836678,General Practitioner,1,QLD,Cattle Creek
+Cattle Creek Clinic,23,55,cattlecreek@myclinic.com.au,-27.6483,150.836678,Psychiatry,4,QLD,Cattle Creek
+Caboolture Clinic,24,56,caboolture@myclinic.com.au,-27.085007,152.951707,Pathology,2,QLD,Caboolture
+Booie Clinic,25,57,booie@myclinic.com.au,-26.498426,151.935421,Chiropratic,5,QLD,Booie
+Rockhampton Clinic,26,58,rockhampton@myclinic.com.au,-23.378941,150.512323,General Practitioner,1,QLD,Rockhampton
+Rockhampton Clinic,26,59,rockhampton@myclinic.com.au,-23.378941,150.512323,Pathology,2,QLD,Rockhampton
+Rockhampton Clinic,26,60,rockhampton@myclinic.com.au,-23.378941,150.512323,Radiology,3,QLD,Rockhampton
+Townsville Clinic,27,61,townsville@myclinic.com.au,-19.267358,146.80654,General Practitioner,1,QLD,Townsville
+Townsville Clinic,27,62,townsville@myclinic.com.au,-19.267358,146.80654,Pathology,2,QLD,Townsville
+Townsville Clinic,27,63,townsville@myclinic.com.au,-19.267358,146.80654,Radiology,3,QLD,Townsville
+Townsville Clinic,27,64,townsville@myclinic.com.au,-19.267358,146.80654,Psychiatry,4,QLD,Townsville
+Townsville Clinic,27,65,townsville@myclinic.com.au,-19.267358,146.80654,Chiropratic,5,QLD,Townsville
+Cairns Clinic,28,66,cairns@myclinic.com.au,-16.925397,145.775178,General Practitioner,1,QLD,Cairns
+Cairns Clinic,28,67,cairns@myclinic.com.au,-16.925397,145.775178,Radiology,3,QLD,Cairns
+Cairns Clinic,28,68,cairns@myclinic.com.au,-16.925397,145.775178,Chiropratic,5,QLD,Cairns
+Adelaide Centre Clinic,29,69,adelaide@myclinic.com.au,-34.92577,138.599732,General Practitioner,1,SA,Adelaide
+Adelaide Centre Clinic,29,70,adelaide@myclinic.com.au,-34.92577,138.599732,Pathology,2,SA,Adelaide
+Adelaide Centre Clinic,29,71,adelaide@myclinic.com.au,-34.92577,138.599732,Radiology,3,SA,Adelaide
+Adelaide Centre Clinic,29,72,adelaide@myclinic.com.au,-34.92577,138.599732,Psychiatry,4,SA,Adelaide
+Adelaide Centre Clinic,29,73,adelaide@myclinic.com.au,-34.92577,138.599732,Chiropratic,5,SA,Adelaide
