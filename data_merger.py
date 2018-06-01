@@ -55,17 +55,49 @@ class DataMerger():
         return cliniclocations_df
 
     def email_repair(self, email):
+        """
+        Input --> email
+
+        Output --> cleaned_email
+        
+        This removes whitespace and clean email
+        """
         cleaned_email = "".join(email.split())
         if (len(cleaned_email.split('@')) < 2):
             cleaned_email += self.EMAIL_DEFAULT_DOMAIN
         return cleaned_email
 
     def data_cleansing(self, clinics_df):
+        """
+        Input --> clinics_df
+
+        Output --> clinics_df
+        
+        This repairs email with helper function email_repair
+        """
         clinics_df['Email'] = clinics_df['Email'].map(lambda x: self.email_repair(x))
         return clinics_df
 
     
     def data_merge(self,clinics_df, cliniclocations_df, services_df, clinicservices_df):
+
+        """
+        Input --> clinics_df, cliniclocations_df, services_df, clinicservices_df
+
+        Output --> clinicservicelocations_df
+        
+        Merge the data from the four data sources into “clinicservicelocations.csv” with the following fields (attributes):\n
+        • ClinicServicesID a unique field identifying each record from clinicservices\n
+        • ServiceID a foreign key linking to services from clinicservices\n
+        • Service the linked title of the service from services\n
+        • ClinicID a foreign key linking to clinics and locations\n
+        • Clinic the name of the clinic from clinics\n
+        • Suburb from clinics\n
+        • State from clinics\n
+        • Email cleaned email address from clinics\n
+        • Lat from cliniclocations\n
+        • Lon from cliniclocations\n
+        """
 
         clinicservices = []
         clinic_service_locations = []
@@ -94,6 +126,9 @@ class DataMerger():
         clinicservicelocations_df.to_csv(self.DEFAULT_FOLDER_LOCATION + "/" + file_name, index=False)
 
     def main(self):
+        """
+        Main function of program
+        """
         clinics_df, cliniclocations_df, services_df, clinicservices_df = self.data_read()
         cleaned_clinics_df = self.data_cleansing(clinics_df)
         clinic_service_locations_df = self.data_merge(cleaned_clinics_df, cliniclocations_df, services_df, clinicservices_df)

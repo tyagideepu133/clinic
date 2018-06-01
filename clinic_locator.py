@@ -2,8 +2,11 @@ from flask import Flask, request, render_template
 import pandas as pd
 import numpy as np
 import json
+from flask_cors import CORS
+
 
 app = Flask(__name__)
+CORS(app)
 DEFAULT_FOLDER_LOCATION = "./data"
 cliniclocations_df = pd.read_csv(DEFAULT_FOLDER_LOCATION + "/clinicservicelocations.csv")
 services_df = pd.read_csv(DEFAULT_FOLDER_LOCATION + "/services.csv")
